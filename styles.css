@@ -35,3 +35,9 @@ body {
     margin-left   : 1.5em;
     margin-right  : 1.5em;
 }
+
+/* .NavLinks:hover{
+    text-decoration: solid white underline;
+    transform: translateY(0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
+} */
