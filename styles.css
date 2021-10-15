@@ -7,6 +7,31 @@
     color: hsl(227, 39%, 47%);
 }
 
-body{
+body {
     background-color: hsl(217, 28%, 15%);
+    margin          : 0;
+}
+
+.Spacer {
+    flex-grow: 1;
+}
+
+.TopNavBar {
+    margin        : 2rem 4rem;
+    /* margin     : 100px; */
+    /* padding-top: 30px; */
+    /* padding-top: 2rem; */
+    display       : flex;
+    align-items   : flex-end;
+
+}
+
+.NavLinks {
+    font-family   : 'Raleway', sans-serif;
+    color         : hsl(0, 0%, 100%);
+    font-weight   : 400;
+    font-size     : 0.7rem;
+    letter-spacing: 0.1em;
+    margin-left   : 1.5em;
+    margin-right  : 1.5em;
 }
