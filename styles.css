@@ -17,23 +17,22 @@ body {
 }
 
 .TopNavBar {
-    margin        : 2rem 4rem;
-    /* margin     : 100px; */
-    /* padding-top: 30px; */
-    /* padding-top: 2rem; */
-    display       : flex;
-    align-items   : flex-end;
-
+    margin       : 2rem 7rem;
+    padding-top  : 2rem;
+    display      : flex;
+    align-items  : center;
+    margin-bottom: 6rem;
 }
 
 .NavLinks {
-    font-family   : 'Raleway', sans-serif;
-    color         : hsl(0, 0%, 100%);
-    font-weight   : 400;
-    font-size     : 0.7rem;
-    letter-spacing: 0.1em;
-    margin-left   : 1.5em;
-    margin-right  : 1.5em;
+    font-family    : 'Raleway', sans-serif;
+    color          : hsl(0, 0%, 100%);
+    font-weight    : 400;
+    font-size      : 0.85rem;
+    letter-spacing : 0.12em;
+    margin-left    : 1.5em;
+    margin-right   : 1.5em;
+    text-decoration: none;
 }
 
 /* .NavLinks:hover{
@@ -41,3 +40,26 @@ body {
     transform: translateY(0.25em);
     box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
 } */
+
+.MainFlow {
+    padding-left : 20rem;
+    padding-right: 20rem;
+}
+
+.CentralAlignment {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.IllustrationIntroImg {
+    height: 27rem;
+}
+
+.IntroHeading {
+    color      : hsl(0, 0%, 100%);
+    font-family: "raleway";
+    font-weight: 700;
+    font-size  : 2.5rem;
+    text-align : center;
+}
