@@ -57,9 +57,35 @@ body {
 }
 
 .IntroHeading {
-    color      : hsl(0, 0%, 100%);
-    font-family: "raleway";
-    font-weight: 700;
-    font-size  : 2.5rem;
+    color        : hsl(0, 0%, 100%);
+    font-family  : "raleway";
+    font-weight  : 700;
+    font-size    : 2.5rem;
+    text-align   : center;
+    margin-bottom: 0.5em;
+}
+
+.IntroPara {
+    color      : hsl(0, 0%, 90%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     text-align : center;
+    width      : 32em;
+    line-height: 1.5em;
+}
+
+.IntroButton {
+    /* background-color: hsl(176, 68%, 64%); */
+    background : rgb(51, 158, 204);
+    background : linear-gradient(253deg, rgba(51, 158, 204, 1) 31%, rgba(101, 226, 217, 1) 96%);
+    border     : none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color      : hsl(0, 0%, 100%);
+    /* font-size: ; */
+    border-radius: 2em;
+    width: 18em;
+    height: 4em;
+    margin-top: 2em;
+    cursor: pointer;
 }
