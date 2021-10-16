@@ -52,6 +52,14 @@ body {
     align-items   : center;
 }
 
+/* FIXME: Correct the background curved svg */
+.IntroSection {
+    /* background: URl("images\\bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: center; */
+    margin-bottom: 5em;
+}
+
 .IllustrationIntroImg {
     height: 27rem;
 }
@@ -76,16 +84,66 @@ body {
 
 .IntroButton {
     /* background-color: hsl(176, 68%, 64%); */
-    background : rgb(51, 158, 204);
-    background : linear-gradient(253deg, rgba(51, 158, 204, 1) 31%, rgba(101, 226, 217, 1) 96%);
-    border     : none;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    color      : hsl(0, 0%, 100%);
-    /* font-size: ; */
+    background   : rgb(51, 158, 204);
+    background   : linear-gradient(253deg, rgba(51, 158, 204, 1) 31%, rgba(101, 226, 217, 1) 96%);
+    border       : none;
+    font-family  : Raleway, sans-serif;
+    font-weight  : 700;
+    color        : hsl(0, 0%, 100%);
+    /* font-size : ; */
     border-radius: 2em;
-    width: 18em;
-    height: 4em;
-    margin-top: 2em;
-    cursor: pointer;
+    width        : 18em;
+    height       : 4em;
+    margin-top   : 2em;
+    cursor       : pointer;
+}
+
+.FeatureSection {
+    display       : flex;
+    flex-direction: column;
+    margin-top    : 5em;
+    margin-bottom : 5em;
+}
+
+.FeatureRow {
+    display        : flex;
+    align-items    : baseline;
+    justify-content: space-between;
+}
+
+.FeatureDiv {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    color         : hsl(0, 0%, 100%);
+    text-align    : center;
+    margin-left   : 8.5em;
+    margin-right  : 8.5em;
+}
+
+.FeatureDiv:nth-of-type(1) {
+    margin-bottom: 4em;
+}
+
+.FeatureDiv:nth-of-type(2) {
+    margin-bottom: 4em;
+}
+
+.FeatureHeader {
+    font-family  : Raleway, sans-serif;
+    font-size    : 1rem;
+    font-weight  : 700;
+    margin-top   : 1.7em;
+    margin-bottom: 0em;
+}
+
+.FeatureDescription {
+    font-family: "Open Sans", sans-serif;
+    font-size  : 0.74rem;
+    line-height: 1.5;
+    width      : 28em;
+}
+
+.FeatureImage {
+    width: 4.5em;
 }
