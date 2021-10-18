@@ -102,7 +102,7 @@ body {
     display       : flex;
     flex-direction: column;
     margin-top    : 5em;
-    margin-bottom : 5em;
+    margin-bottom : 2em;
 }
 
 .FeatureRow {
@@ -147,4 +147,39 @@ body {
 
 .FeatureImage {
     width: 4.5em;
+}
+
+.StayProdSection {
+    display: flex;
+    width  : 80%;
+    margin : 2em auto;
+}
+
+.StayProdRow {
+    display       : flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.StayProdHeader {
+    color      : hsl(0, 0%, 100%);
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5em;
+    width: 80%;
+}
+
+.StayProdText {
+    color: hsl(0, 0%, 76%);
+    font-family: "Open Sans" ,sans-serif;
+}
+
+#SeeHowFyloWorks a,
+#SeeHowFyloWorks a:link,
+#SeeHowFyloWorks a:visited {
+    color: hsl(176, 68%, 64%);
+}
+
+.StayProdImg {
+    /* width: 50%; */
+    flex-grow: 1;
 }
