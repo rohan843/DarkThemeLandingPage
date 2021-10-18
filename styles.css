@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: hsl(217, 28%, 15%);
+    /* background-color: hsl(217, 28%, 15%); */
+    background-color: hsl(218, 28%, 13%);
     margin          : 0;
 }
 
@@ -156,21 +157,22 @@ body {
 }
 
 .StayProdRow {
-    display       : flex;
-    flex-direction: column;
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
+    margin         : 2.5em;
 }
 
 .StayProdHeader {
     color      : hsl(0, 0%, 100%);
     font-family: "Raleway", sans-serif;
-    font-size: 2.5em;
-    width: 80%;
+    font-size  : 2.5em;
+    width      : 80%;
 }
 
 .StayProdText {
-    color: hsl(0, 0%, 76%);
-    font-family: "Open Sans" ,sans-serif;
+    color      : hsl(0, 0%, 76%);
+    font-family: "Open Sans", sans-serif;
 }
 
 #SeeHowFyloWorks a,
@@ -181,5 +183,37 @@ body {
 
 .StayProdImg {
     /* width: 50%; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+}
+
+.Testimonials {
+    display: flex;
+}
+
+.TestimonialText {
+    color      : hsl(0, 0%, 76%);
+    font-family: "Open Sans", sans-serif;
+    font-size  : 0.84rem;
+    line-height: 1.5;
+}
+
+.TestimonialCard {
+    display         : flex;
+    flex-direction  : column;
+    padding-top     : 1.5em;
+    padding-left    : 1em;
+    padding-right   : 1em;
+    background-color: hsl(219, 30%, 18%);
+    border-radius   : 0.2em;
+    margin          : auto 6px;
+    width           : 35%;
+}
+
+.TestimonialAttr {
+    /* display: flex; */
+}
+
+.TestimonialImg {
+    width        : 1.5em;
+    border-radius: 100%;
 }
