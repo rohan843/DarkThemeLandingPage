@@ -203,6 +203,7 @@ body {
     padding-top     : 1.5em;
     padding-left    : 1em;
     padding-right   : 1em;
+    padding-bottom  : 1em;
     background-color: hsl(219, 30%, 18%);
     border-radius   : 0.2em;
     margin          : auto 6px;
@@ -210,10 +211,36 @@ body {
 }
 
 .TestimonialAttr {
-    /* display: flex; */
+    display    : flex;
+    align-items: center;
 }
 
 .TestimonialImg {
     width        : 1.5em;
+    height       : 1.5em;
     border-radius: 100%;
+}
+
+.Author {
+    display       : flex;
+    flex-direction: column;
+    color         : hsl(0, 0%, 100%);
+    font-family   : "Open Sans", sans-serif;
+    padding-left  : 0.5rem;
+}
+
+.Author .Name {
+    font-weight: 700;
+    font-size  : 0.65em;
+}
+
+.Author .Designation {
+    color    : hsl(0, 0%, 76%);
+    font-size: 0.65em;
+}
+
+.Author .Name,
+.Author .Designation {
+    margin-top   : 0;
+    margin-bottom: 0;
 }
