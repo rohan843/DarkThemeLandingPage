@@ -273,6 +273,7 @@ body {
     width                : 46%;
     margin-bottom        : 400px;
     padding              : 2% 4%;
+    z-index: 1;
 }
 
 .EarlyAccessHeader {
@@ -289,6 +290,7 @@ body {
     text-align : center;
     width      : 90%;
     font-size  : 0.85rem;
+    margin-bottom: 2.5em;
 }
 
 .EarlyAccessForm {
@@ -299,13 +301,15 @@ body {
 }
 
 .EarlyAccessEmailInput {
-    background-color   : hsl(0, 0%, 100%);
-    width              : 60%;
-    border             : none;
-    padding            : 1em 0 1em 2em;
-    /* border-radius   : 10%; */
+    background-color: hsl(0, 0%, 100%);
+    width           : 60%;
+    border          : none;
+    padding         : 1em 0 1em 2em;
+    border-radius   : 2em;
 }
 
 .EarlyAccessButton {
-    margin-top: 0;
+    margin-top   : 0;
+    height       : 3.3em;
 }
+
