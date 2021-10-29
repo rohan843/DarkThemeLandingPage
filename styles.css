@@ -222,7 +222,7 @@ body {
     border-radius   : 0.2em;
     margin          : auto 1em;
     width           : 35%;
-    z-index: 1;
+    z-index         : 1;
 }
 
 .TestimonialAttr {
@@ -258,4 +258,54 @@ body {
 .Author .Designation {
     margin-top   : 0;
     margin-bottom: 0;
+}
+
+.EarlyAccessCard {
+    box-shadow           : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
+    -webkit-box-shadow   : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow      : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
+    /* text-align        : center; */
+    border-radius        : 0.6em;
+    display              : flex;
+    flex-direction       : column;
+    align-items          : center;
+    background-color     : hsl(217, 28%, 15%);
+    width                : 46%;
+    margin-bottom        : 400px;
+    padding              : 2% 4%;
+}
+
+.EarlyAccessHeader {
+    font-family   : Raleway, sans-serif;
+    color         : hsl(0, 0%, 100%);
+    letter-spacing: 0.04em;
+    font-size     : 1.7rem;
+    margin-bottom : 0.2em;
+}
+
+.EarlyAccessText {
+    color      : hsl(0, 0%, 90%);
+    font-family: "Open Sans", sans-serif;
+    text-align : center;
+    width      : 90%;
+    font-size  : 0.85rem;
+}
+
+.EarlyAccessForm {
+    display        : flex;
+    width          : 100%;
+    justify-content: space-between;
+    align-items    : baseline;
+}
+
+.EarlyAccessEmailInput {
+    background-color   : hsl(0, 0%, 100%);
+    width              : 60%;
+    border             : none;
+    padding            : 1em 0 1em 2em;
+    /* border-radius   : 10%; */
+}
+
+.EarlyAccessButton {
+    margin-top: 0;
 }
