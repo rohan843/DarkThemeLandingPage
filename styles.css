@@ -222,6 +222,7 @@ body {
     border-radius   : 0.2em;
     margin          : auto 1em;
     width           : 35%;
+    z-index: 1;
 }
 
 .TestimonialAttr {
