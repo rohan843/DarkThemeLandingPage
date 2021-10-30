@@ -322,7 +322,7 @@ body {
 
 .Footer {
     background-color: hsl(216, 53%, 9%);
-    padding         : 15em 9em 10em;
+    padding         : 15em 9em 4em;
 }
 
 .RemoveTopMargin {
