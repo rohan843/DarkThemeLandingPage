@@ -383,3 +383,8 @@ body {
 .FooterLinks2 {}
 
 .FooterSocial {}
+
+.FooterLinks{
+    color: hsl(0, 0%, 90%);
+    text-decoration: none;
+}
