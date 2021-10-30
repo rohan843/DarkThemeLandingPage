@@ -320,13 +320,20 @@ body {
     margin: 0.3em;
 }
 
-.BottomFooter {
-    display         : flex;
-    justify-content : space-evenly;
-    font-family     : "Open Sans", sans-serif;
-    color           : hsl(0, 0%, 90%);
+.Footer {
     background-color: hsl(216, 53%, 9%);
-    padding         : 15em 3em 10em;
+    padding         : 15em 9em 10em;
+}
+
+.RemoveTopMargin {
+    margin-top: 0;
+}
+
+.BottomFooter {
+    display        : flex;
+    justify-content: space-between;
+    font-family    : "Open Sans", sans-serif;
+    color          : hsl(0, 0%, 90%);
 }
 
 .FooterLogo {
@@ -334,9 +341,10 @@ body {
     flex-direction: column;
 }
 
-.FooterLogo .Logo {
+.Logo {
     width        : 12.5em;
     margin-bottom: 1.9em;
+    /* display   : block; */
 }
 
 .FooterLogoLocation {
@@ -357,12 +365,13 @@ body {
 }
 
 .FooterContact .ContactInfo {
-    display: flex;
-    align-items: center;
+    display    : flex;
+    align-items: flex-start;
 }
 
-.FooterContact .ContactIcon{
+.FooterContact .ContactIcon {
     margin-right: 1.5em;
+    width       : 1.25em;
 }
 
 .FooterLinks1 {
