@@ -261,19 +261,19 @@ body {
 }
 
 .EarlyAccessCard {
-    box-shadow           : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
-    -webkit-box-shadow   : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
-    -moz-box-shadow      : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
-    /* text-align        : center; */
-    border-radius        : 0.6em;
-    display              : flex;
-    flex-direction       : column;
-    align-items          : center;
-    background-color     : hsl(217, 28%, 15%);
-    width                : 46%;
-    margin-bottom        : 400px;
-    padding              : 2% 4%;
-    z-index: 1;
+    box-shadow              : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
+    -webkit-box-shadow      : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow         : 4px 5px 14px -5px rgba(0, 0, 0, 0.74);
+    /* text-align           : center; */
+    border-radius           : 0.6em;
+    display                 : flex;
+    flex-direction          : column;
+    align-items             : center;
+    background-color        : hsl(217, 28%, 15%);
+    width                   : 46%;
+    /* margin-bottom        : 400px; */
+    padding                 : 2% 4%;
+    z-index                 : 1;
 }
 
 .EarlyAccessHeader {
@@ -285,11 +285,11 @@ body {
 }
 
 .EarlyAccessText {
-    color      : hsl(0, 0%, 90%);
-    font-family: "Open Sans", sans-serif;
-    text-align : center;
-    width      : 90%;
-    font-size  : 0.85rem;
+    color        : hsl(0, 0%, 90%);
+    font-family  : "Open Sans", sans-serif;
+    text-align   : center;
+    width        : 90%;
+    font-size    : 0.85rem;
     margin-bottom: 2.5em;
 }
 
@@ -306,10 +306,71 @@ body {
     border          : none;
     padding         : 1em 0 1em 2em;
     border-radius   : 2em;
+    margin-right    : 0.5em;
 }
 
 .EarlyAccessButton {
-    margin-top   : 0;
-    height       : 3.3em;
+    margin-top: 0;
+    height    : 3.3em;
 }
 
+.SocialIcon {
+    width : 2rem;
+    height: 2rem;
+    margin: 0.3em;
+}
+
+.BottomFooter {
+    display         : flex;
+    justify-content : space-evenly;
+    font-family     : "Open Sans", sans-serif;
+    color           : hsl(0, 0%, 90%);
+    background-color: hsl(216, 53%, 9%);
+    padding         : 15em 3em 10em;
+}
+
+.FooterLogo {
+    display       : flex;
+    flex-direction: column;
+}
+
+.FooterLogo .Logo {
+    width        : 12.5em;
+    margin-bottom: 1.9em;
+}
+
+.FooterLogoLocation {
+    width      : 25em;
+    display    : flex;
+    align-items: flex-start;
+}
+
+.FooterLogoLocation .LocIcon {
+    padding-top: 0.5em;
+}
+
+.FooterLogoLocation .LocationText {
+    display    : inline-block;
+    padding-top: 0;
+    margin-top : 0;
+    margin-left: 2em;
+}
+
+.FooterContact .ContactInfo {
+    display: flex;
+    align-items: center;
+}
+
+.FooterContact .ContactIcon{
+    margin-right: 1.5em;
+}
+
+.FooterLinks1 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+
+.FooterLinks2 {}
+
+.FooterSocial {}
